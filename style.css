@@ -46,4 +46,127 @@ body {
     font-family: var(--ff-red-hat-display);
     max-width: 100%;
     min-height: 100vh;
+    background: url(./images/pattern-background-desktop.svg);
+    background-color: var(--pale-blue);
+    background-position: top;
+    background-repeat: repeat no-repeat;
+    /* background-size: contain; */
+    font-size: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    max-width: 450px;
+    /* min-height: 700px; */
+    background: var(--white);
+    border-radius: 20px;
+    overflow: hidden;
+    margin: 20px;
+}
+
+.card-text {
+    text-align: center;
+    padding: 50px;
+}
+
+.card-text h1 {
+    font-size: 1.75rem;
+    font-weight: var(--fw-bold);
+    margin-bottom: 20px;
+    color: var(--dark-blue);
+}
+
+.card-text p {
+    color: var(--desaturated-blue);
+    line-height: 1.5;
+}
+
+.plan {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: var(--very-pale-blue);
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.plan svg {
+    margin-right: 20px;
+}
+
+.plan-text {
+    display: flex;
+    justify-content: space-around;
+}
+
+.plan-text::before {
+    content: url(./images/icon-music.svg);
+}
+
+.plan-price {
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.plan-price h2 {
+    color: var(--dark-blue);
+    font-weight: var(--fw-bold);
+}
+
+.plan p a {
+    line-height: 1;
+    text-align: right;
+    text-decoration: underline;
+    color: var(--bright-blue);
+    font-weight: var(--fw-bold);
+    transition: 0.3s;
+}
+
+.plan p a:hover {
+    color: #766CEF;
+    text-decoration: none;
+}
+
+.card button {
+    border: none;
+    margin: 25px 0 10px;
+    min-width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: var(--bright-blue);
+    color: var(--white);
+    font-weight: var(--fw-bold);
+    transition: 0.3s;
+}
+
+.card button:hover {
+    background-color: #766CEF;
+
+}
+
+.card a {
+    font-weight: var(--fw-bold);
+    transition: 0.3s;
+}
+
+.card a:hover {
+    color: var(--dark-blue);
+}
+
+@media (max-width:512px) {
+    .card-text {
+        padding: 30px;
+    }
+
+    body {
+
+        background: url(./images/pattern-background-mobile.svg);
+        background-color: var(--pale-blue);
+        background-position: top;
+        background-repeat: repeat no-repeat;
+        background-size: contain;
+    }
 }
