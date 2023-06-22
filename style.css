@@ -170,4 +170,16 @@ body {
         background-repeat: repeat no-repeat;
         background-size: contain;
     }
+
+    .plan {
+        padding: 10px;
+    }
+
+    .plan-price {
+        margin-left: 10px;
+    }
+
+    .plan p a {
+        font-size: 0.9rem;
+    }
 }
