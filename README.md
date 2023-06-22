@@ -38,7 +38,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Frontend Mentor - Order Summary Component solution](https://your-solution-url.com)
-- Live Site URL: [Order Summary Component](https://shohanojjaman.github.io/orderSummaryComponet/)
+- Live Site URL: [Order Summary Component](https://shohanojjaman.github.io/orderSummaryComponent/)
 
 ## My process
 
