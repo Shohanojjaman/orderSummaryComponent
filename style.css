@@ -139,6 +139,7 @@ body {
     background-color: var(--bright-blue);
     color: var(--white);
     font-weight: var(--fw-bold);
+    cursor: pointer;
     transition: 0.3s;
 }
 
